@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tugas_individu_mobile_programming/ui/data_form.dart';
+import 'package:tugas_individu_mobile_programming/ui/data_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Data Mahasiswa',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const DataForm(),
+      home:  const DataPage(),
     );
   }
 }
